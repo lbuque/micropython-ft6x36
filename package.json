@@ -1,0 +1,10 @@
+{
+    "urls": [
+        [
+            "ft6x36.py",
+            "github:lbuque/micropython-ft6x36/ft6x36.py"
+        ]
+    ],
+    "deps": [],
+    "version": "0.2.0"
+}
