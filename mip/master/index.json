@@ -1,7 +1,7 @@
 {
   "packages": [
     {
-      "name": ".",
+      "name": "ft6x36",
       "version": "0.2.0",
       "author": "",
       "description": "FocalTech FT6X36 touch panel driver.",
@@ -17,5 +17,5 @@
     }
   ],
   "v": 1,
-  "updated": 1718466517
+  "updated": 1718466573
 }
