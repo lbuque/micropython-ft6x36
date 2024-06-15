@@ -310,7 +310,7 @@ def build(output_path, hash_prefix_len, mpy_cross_path):
 
     # For now, don't process unix-ffi. In the future this can be extended to
     # allow a way to request unix-ffi packages via mip.
-    lib_dirs = ["."]
+    lib_dirs = ["ft6x36"]
 
     mpy_version, _mpy_sub_version = mpy_cross.mpy_version(mpy_cross=mpy_cross_path)
     mpy_version = str(mpy_version)

@@ -21,7 +21,10 @@ station.active(True)
 station.connect('SSID', 'PASSWORD')
 time.sleep(1)
 print('Device connected to network: {}'.format(station.isconnected()))
-mip.install("github:lbuque/micropython-ft6x36/ft6x36.py", target="lib")
+# latest
+mip.install("github:lbuque/micropython-ft6x36/ft6x36/ft6x36.py", target="lib")
+# or mpy
+mip.install("ft6x36", index="https://lbuque.github.io/micropython-ft6x36/mip/0.2.0")
 print('Installation completed')
 machine.soft_reset()
 ```
